@@ -8,11 +8,9 @@ def shutdown():
         time.sleep(1)
     print("Are you sure you want to shutdown pc?")
     print("Yes or No?")
-    second_check = input().lower
+    second_check = input().lower()
     if second_check == "yes" or second_check == "y":
         print("Shutdown complete")
-    elif second_check == "no" or second_check == "n":
-        shutdown()
 print("Do you want to shutdown computer?")
 print("Yes or No?")
 first_check = input().lower()
